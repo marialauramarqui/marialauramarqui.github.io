@@ -2,36 +2,89 @@
 <html lang="pt-br">
 <head>
   <meta charset="UTF-8">
-  <title>Projeto Vendas no Varejo</title>
+  <title>Projeto | Análise de Vendas no Varejo</title>
+
   <style>
     body {
       font-family: Arial, sans-serif;
-      background-color: #f5f5f5;
+      background-color: #0d1117;
+      color: #e6edf3;
       margin: 40px;
     }
+
     .container {
-      max-width: 800px;
+      max-width: 900px;
       margin: auto;
-      background: white;
+      background: #161b22;
       padding: 30px;
-      border-radius: 10px;
+      border-radius: 12px;
     }
+
     h1 {
       color: #1f6feb;
     }
+
     a.button {
       display: inline-block;
       padding: 12px 20px;
       background-color: #1f6feb;
-      color: white;
+      color: #ffffff;
       text-decoration: none;
       border-radius: 6px;
       margin-right: 10px;
       margin-top: 15px;
+      font-weight: bold;
+    }
+
+    .buttons {
+      margin-top: 20px;
+    }
+
+    a.back {
+      display: inline-block;
+      margin-top: 30px;
+      color: #8b949e;
+      text-decoration: none;
     }
   </style>
 </head>
+
 <body>
+  <div class="container">
+
+    <h1>Análise de Vendas no Varejo</h1>
+
+    <p>
+      Este projeto analisa dados de vendas do varejo com o objetivo de identificar
+      padrões de consumo, desempenho por categoria e comportamento dos clientes.
+    </p>
+
+    <p>
+      O pipeline de dados foi desenvolvido no Databricks utilizando SQL e Python,
+      com posterior visualização dos insights em um dashboard.
+    </p>
+
+    <h3>Escolha o que deseja visualizar:</h3>
+
+    <div class="buttons">
+      <a class="button"
+         href="https://youtu.be/EieUMpZTS9k"
+         target="_blank">
+        Ver Dashboard (Vídeo)
+      </a>
+
+      <a class="button"
+         href="https://github.com/marialauramarqui/projeto-vendas-varejo/blob/main/pipeline_vendas_varejo.ipynb"
+         target="_blank">
+        Ver Pipeline de Dados
+      </a>
+    </div>
+
+    <a class="back" href="index.html">← Voltar para o início</a>
+
+  </div>
+</body>
+</html>
 
   <div class="container">
     <h1>Análise de Vendas no Varejo</h1>
