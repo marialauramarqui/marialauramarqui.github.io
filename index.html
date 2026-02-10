@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-
 <head>
   <meta charset="UTF-8">
   <title>Maria Laura Marqui | Portfólio</title>
@@ -34,8 +33,19 @@
       margin-bottom: 20px;
     }
 
-    .project {
+    .project-card {
+      display: flex;
+      align-items: center;
+      gap: 20px;
+      background-color: #0d1117;
+      padding: 20px;
+      border-radius: 12px;
       margin-top: 30px;
+    }
+
+    .dashboard-thumb {
+      width: 180px;
+      border-radius: 10px;
     }
 
     a.button {
@@ -52,11 +62,10 @@
 </head>
 
 <body>
-
   <div class="container">
 
-    <!-- FOTO -->
-    <img src="foto-perfil.jpg" alt="Foto de perfil" class="profile-pic">
+    <!-- FOTO DE PERFIL -->
+    <img src="fotoperfillinkedin.jpg" alt="Foto de perfil" class="profile-pic">
 
     <h1>Maria Laura Oliveira de Marqui</h1>
 
@@ -71,21 +80,24 @@
       e visualização para apoio à tomada de decisão.
     </p>
 
-    <div class="project">
-      <h2>Projeto: Análise de Vendas no Varejo</h2>
+    <!-- CARD DO PROJETO -->
+    <div class="project-card">
+      <img src="fotodashboard.png" alt="Miniatura do Dashboard" class="dashboard-thumb">
 
-      <p>
-        Projeto completo de análise de dados com pipeline em Databricks
-        e visualização dos resultados em dashboard.
-      </p>
+      <div>
+        <h2>Análise de Vendas no Varejo</h2>
+        <p>
+          Projeto completo de análise de dados com pipeline em Databricks
+          e visualização dos resultados em dashboard.
+        </p>
 
-      <a class="button" href="projeto-varejo.html">
-        Ver Projeto
-      </a>
+        <a class="button" href="projeto-varejo.html">
+          Ver Projeto
+        </a>
+      </div>
     </div>
 
   </div>
-
 </body>
 </html>
 
