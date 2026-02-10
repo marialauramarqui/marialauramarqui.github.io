@@ -2,24 +2,82 @@
 <html lang="pt-br">
 <head>
     <meta charset="UTF-8">
-    <title>Portfólio | Maria Laura</title>
+    <title>Maria Laura | Portfólio de Análise de Dados</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f5f7fa;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            max-width: 1000px;
+            margin: auto;
+            padding: 40px;
+            display: flex;
+            align-items: center;
+            gap: 40px;
+        }
+        .profile {
+            flex: 1;
+        }
+        .profile h1 {
+            color: #1f4fd8;
+        }
+        .profile p {
+            font-size: 16px;
+            line-height: 1.6;
+        }
+        .projects {
+            flex: 1;
+        }
+        .project-card {
+            background: white;
+            padding: 25px;
+            border-radius: 8px;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.08);
+        }
+        .project-card h2 {
+            margin-top: 0;
+        }
+        .btn {
+            display: inline-block;
+            margin-top: 15px;
+            padding: 10px 18px;
+            background-color: #1f4fd8;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            font-weight: bold;
+        }
+        .btn:hover {
+            background-color: #1639a0;
+        }
+    </style>
 </head>
 <body>
 
-<h1>Maria Laura</h1>
+<div class="container">
+    <div class="profile">
+        <h1>Maria Laura Oliveira de Marqui</h1>
+        <p>
+            Estudante de Análise de Dados com foco em transformar dados em insights para tomada de decisão.
+            Experiência prática em projetos utilizando <strong>SQL, Python, Databricks e Power BI</strong>,
+            com análise exploratória, construção de pipelines de dados e dashboards interativos voltados ao negócio.
+        </p>
+    </div>
 
-<p>
-Analista de Dados em formação, com projetos desenvolvidos em SQL, Python,
-Databricks e Power BI. Este portfólio reúne dashboards, análises e
-pipelines de dados.
-</p>
-
-<h2>Projetos</h2>
-
-<ul>
-    <li><a href="projeto_varejo.html">Análise de Vendas no Varejo</a></li>
-    <li><a href="projeto_clientes.html">Comportamento do Cliente</a></li>
-</ul>
+    <div class="projects">
+        <div class="project-card">
+            <h2>📊 Análise de Vendas no Varejo</h2>
+            <p>
+                Projeto completo de análise de dados utilizando base de vendas varejistas,
+                com tratamento, modelagem, pipeline de dados e visualização em dashboard.
+            </p>
+            <a class="btn" href="projeto-varejo.html">Ver Projeto</a>
+        </div>
+    </div>
+</div>
 
 </body>
 </html>
